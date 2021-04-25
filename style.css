@@ -1,0 +1,32 @@
+body {
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 23px;
+    background-color: rgb(55, 195, 214);
+}
+
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 8rem;
+    background-color: rgb(55, 195, 214);
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+button {
+    padding: 6px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:  rgb(55, 195, 214);
+}

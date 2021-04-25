@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Email Form Assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+      <main>
+          <form>
+            <div class="group">
+              <label for="name">Name:</label>
+              <input 
+              type="text" 
+              name="name"
+              id="name"
+              required
+              placeholder="Enter your full name"
+              />
+
+              <label for="email">Email:</label>
+              <input
+              id="email"
+              name="email"
+              type="text"
+              required
+              placeholder="Enter email address"
+              />
+
+              <label for="form-message">Your message:</label>
+              <textarea 
+              name="message" 
+              id="form-message" 
+              autofocus="on"
+              required
+              maxlength="250"
+              placeholder="Your message goes here"
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+      </main>
+  </body>
